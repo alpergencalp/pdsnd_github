@@ -6,6 +6,7 @@ Bikeshare Data Analysis Project
 
 ### Description
 This project is developed for Bikeshare business units to analyze and develop their business.
+Python, numpy and pandas are used in development stage.
 
 ### Files used
 There are 3 data files used in this project

@@ -34,6 +34,7 @@ def get_filters():
           time_filter_choice = input('Wrong input, choose one of month, day or none.\n').lower()
     # TO DO: get user input for month (all, january, february, ... , june)
     
+    #if case is checking for the right month choice of user.
     if time_filter_choice == 'month':
         month_choice = input('Which month? January, February, March, April, May or June?\n').lower()
         while month_choice not in months:
