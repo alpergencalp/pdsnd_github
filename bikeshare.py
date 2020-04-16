@@ -84,6 +84,7 @@ def load_data(city, month, day):
 
 def ask_user_for_data(city, month,day):
 #this function is asking user for printing extra data.
+# 5 lines of extra data per request.
     DataFrame = load_data(city, month, day)
     row_count = 5
     print(DataFrame.head(row_count))
