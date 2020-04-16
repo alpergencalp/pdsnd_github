@@ -43,7 +43,7 @@ def get_filters():
         print('Looks like you want to filter by {}! If this is not true, restart the program now.\n'.format(month_choice_int))      
         
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    
+    #if case is checking for the right day choice of user.
     if time_filter_choice == 'day':
         day_choice = input('Which day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday.\n').title()
         while day_choice not in days:
